@@ -2,7 +2,7 @@
 import math
 import cmath
 
-print('''
+mathe = raw_input('''
 What sort of math would you like to do, ''' + name + '''?
 
   "A"ddition
@@ -14,7 +14,6 @@ Don't type anything and just hit enter for more!
 ''')
 
 need = None
-mathe = raw_input("")
 print
 
 add = {'a', 'Addition', 'addition', 'A'}
