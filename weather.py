@@ -24,11 +24,12 @@ temp_f = pj['temp_f']
 feels = pj['feelslike_f']
 weather = pj['weather']
 obtime = pj['observation_time']
+yes = str('yes')
 
 #print("The temperature in %s, %s is: %s" % (location, state, temp_f) + ", feels like: %s" % (feels))
-print("     The temperature in " + city + " is: %s" % (temp_f) + ", feels like: %s" % (feels))
+print("     The temperature in %s " % (city) + " is: %s" % (temp_f) + ", feels like: %s" % (feels))
 
-print("     Current weather in " + city + " is: %s" % (weather) + '''.
+print("     Current weather in %s" % (city) + " is: %s" % (weather) + '''.
       
       '''+ "[Note: %s" % (obtime) + "]")
 
