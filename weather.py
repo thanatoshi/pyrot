@@ -9,7 +9,8 @@ print
 
 zip = input("   ZIP code? ")
 print
-api = raw_input("   API key for Weather Underground? ")
+api = "b2d7a183c77895f0"
+#replace that API with your own
 print
 
 import urllib2
